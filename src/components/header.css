@@ -1,0 +1,41 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #064e03;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+    justify-content: space-between;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* space between logo and text */
+  }
+  .logo-image {
+    width: 40px;        /* adjust size as needed */
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  
+  .logo-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #607d8b; /* example color for placeholder */
+    border-radius: 4px; /* optional styling */
+  }
+  
+  .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:lightgreen;
+  }
+  
